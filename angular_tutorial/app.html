@@ -4,12 +4,13 @@
 		<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'/>
 	</head>
 	<body>
-		<script type='text/javascript' src='angular.min.js'></script>
+		<script type='text/javascript' src='./angular.min.js'></script>
 		<script type='text/javascript' src='app.js'></script>
+		<h1>{{'Hello World!'}}</h1>
 		<div ng-controller='StoreController as store'>
-		<h1>{{store.product.name}}</h1>
-		<h2>£{{store.product.price}}</h2>
-		<p>{{store.product.description}}</p>
+			<h1>{{store.product.name}}</h1>
+			<h2>£{{store.product.price}}</h2>
+			<p>{{store.product.description}}</p>
 		</div>
 	</body>
 </html>
